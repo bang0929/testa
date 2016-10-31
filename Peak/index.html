@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>匹克官方网店|匹克官方商城 - I CAN PLAY!斗志改未知!</title>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	
+	<body>
+		<!--头部登录注册部分-header-->
+		<div class="header-page">
+			<div class="header pagewidth pagewidth-min">
+				<ul class="header">
+					<li class="header-left">
+						<ul>
+							<li>您好，欢迎来到匹克官方网店！</li>
+							<li class="login"><a href="#">请登录</a></li>
+							<li class="registered"><a href="#">请注册</a></li>
+						</ul>											
+					</li>
+					<li class="phonemall">
+						<span>手机商城</span>						
+					</li>
+					<li class="header-right">
+						<ul>
+							<li><a href="#">我的订单</a></li>
+							<li><a class="shopping-cart" href="#">购物车<span>（0）</span>件</a></li>
+							<li class="webnav">
+								<a href="#">网站导航</a>
+								<div class="webnav-submenu">
+									<ul>
+										<li><a href="#">匹克官网</a></li>
+										<li><a href="#">俱乐部</a></li>
+										<li><a href="#">社区</a></li>
+										<li><a href="#">校服/定制</a></li>
+										<li><a href="#">商品大全</a></li>
+										<li><a href="#">正品验证</a></li>
+										<li><a href="#">服务中心</a></li>
+										<li><a href="#">官方微博</a></li>
+									</ul>
+								</div>
+								<script type="text/javascript">
+									var $webnav=$(".webnav");
+									$webnav.hover(function(){
+										$(this).find(".webnav-submenu").show();
+									},function(){
+										$(this).find(".webnav-submenu").hide();
+									});
+								</script>
+							</li>
+						</ul>																
+					</li>
+				</ul>				
+			</div>
+		</div>
+		
+		<!--头部logo---商品搜索框部分-->
+		<div class="header-logo pagewidth pagewidth-min">
+			<ul class="header-logo">
+				<li class="logo"></li>
+				<li class="searchInput"><input type="text" value=""/></li>
+				<li class="searchBtn"><a href="#">搜索</a></li>				
+				<!--<li class="promotion"><a href="#"></a></li>-->
+			</ul>
+		</div>
+		
+		<!--头部导航nav部分-->
+		<div class="nav-page">
+			<div class="nav pagewidth pagewidth-min">
+				<ul class="nav">
+					<li class="allproducts">
+						<div class="allproducts-title">所有商品分类</div>
+						<div class="allproducts-list">
+							<ul>
+								<li>
+									<div><a href="#">男鞋</a></div>
+									<a href="#">篮球鞋</a>
+									<a href="#">跑步鞋</a>
+									<a href="#">板鞋</a>
+									<a href="#">休闲鞋</a>
+									<a href="#">户外鞋</a>
+								</li>
+								<li>
+									<div><a href="#">女鞋</a></div>
+									<a href="#">跑步鞋</a>
+									<a href="#">板鞋</a>
+									<a href="#">休闲鞋</a>
+									<a href="#">网球鞋</a>
+									<a href="#">户外鞋</a>
+								</li>
+								<li>
+									<div><a href="#">男装</a></div>
+									<a href="#">篮球鞋</a>
+									<a href="#">T恤</a>
+									<a href="#">短裤</a>
+									<a href="#">单裤</a>
+									<a href="#">运动长裤</a>
+								</li>
+								<li>
+									<div><a href="#">女装</a></div>
+									<a href="#">T恤</a>
+									<a href="#">短裤</a>
+									<a href="#">单裤</a>
+									<a href="#">运动长裤</a>
+								</li>
+								<li>
+									<div><a href="#">配件</a></div>
+									<a href="#">袜子</a>
+									<a href="#">帽子</a>
+									<a href="#">球</a>
+									<a href="#">包袋</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-menu"><a href="#">首页</a></li>
+					<li class="nav-menu"><a href="#">篮球</a></li>
+					<li class="nav-menu"><a href="#">跑步</a></li>
+					<li class="nav-menu"><a href="#">明星款</a></li>
+					<li class="nav-menu"><a href="#">新品</a></li>
+					<li class="nav-menu"><a href="#">企业团购</a></li>
+					<li class="nav-menu"><a href="#">校服</a></li>
+					<li class="nav-menu"><a href="#">大码鞋</a></li>
+					<li class="nav-menu"><a href="#">特惠</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--固定右侧边栏部分-->
+		<div class="sideBar">
+			<div class="sideBar-l">
+				<ul class="sideBar-l-Ul">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="sideBar-r"></div>
+		</div>
+		
+		<!--banner--轮播图部分-->
+		<div class="banner-page">
+			<ul class="banner-list">
+				<li><a href="#"><img src="images/banner1.jpg" alt=""/></a></li>
+				<li><a href="#"><img src="images/banner2.jpg" alt=""/></a></li>
+				<li><a href="#"><img src="images/banner3.jpg" alt=""/></a></li>
+				<li><a href="#"><img src="images/banner4.jpg" alt=""/></a></li>
+				<li><a href="#"><img src="images/banner5.jpg" alt=""/></a></li>
+			</ul>
+			<div class="banner-btn">
+				<ul class="banner-btnUl">
+					<li>满199减30 满399减60</li>
+					<li>会员专享 特卖汇</li>
+					<li>专业产品系列</li>
+					<li>棉鞋男加绒保暖</li>
+					<li>气垫跑鞋时尚百搭</li>
+				</ul>
+			</div>			
+		</div>
+		
+		<!--------专场入口--------->
+		<div class="special pagewidth pagewidth-min">
+			<div class="special-cont">
+				<ul class="styleAutoSize">
+					<li><a href="#"><img src="images/Basketball.jpg" alt="" title="篮球专场" /></a></li>
+					<li><a href="#"><img src="images/Tuangou_1.jpg" alt="" title="团购定制专场" /></a></li>
+					<li><a href="#"><img src="images/Big_size.jpg" alt="" title="大码鞋专场" /></a></li>
+					<li><a href="#"><img src="images/Running.jpg" alt="" title="跑步专场" /></a></li>
+				</ul>
+			</div>
+		</div>
+			
+		<!-------商品系列------------>		
+		<div class="pagewidth pagewidth-min">
+			<!--1F--篮球系列-->
+			<div class="basketball-series pro-series">
+				<div class="title">
+					<h2><span>1F</span><a href="#">篮球系列</a></h2>
+					<ul class="styleAutoSize">
+						<li><a href="javascript:;">热销</a></li>
+						<li><a href="javascript:;">篮球鞋</a></li>
+						<li><a href="javascript:;">篮球服</a></li>
+						<li><a href="javascript:;">篮球配件</a></li>
+						<li class="more-link"><a href="#">查看更多</a></li>
+					</ul>
+				</div>
+				<div class="pro-main">
+					<div class="main-l">
+						<div class="star-list">
+							<ul class="star-part1">
+								<li>
+									<a href="#"><img src="images/sanji.jpg" alt="" /></a>
+									<a href="#"><img src="images/qingzhi.jpg" alt="" /></a>
+									<a href="#"><img src="images/tidu.jpg" alt="" /></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/wuhen.jpg" alt="" /></a>
+									<a href="#"><img src="images/yiwanzhe.jpg" alt="" /></a>
+									<a href="#"><img src="images/zugong.jpg" alt="" /></a>
+								</li>
+							</ul>
+							<ul class="star-part2">
+								<li>
+									<a href="#">霍华德系列</a>
+									<a href="#">巴蒂尔系列</a>
+									<a href="#">速鹰系列</a>
+									<a href="#">经典款</a>
+								</li>
+								<li>
+									<a href="#">帕克系列</a>
+									<a href="#">猛兽系列</a>
+									<a href="#">闪电系列</a>
+								</li>
+							</ul>
+							<div class="star-part3">
+								<div class="selection">
+									<span>本周</span>
+									<span>精选</span>
+								</div>
+								<a href="#"><img src="images/XE42011A.jpg" alt="匹克篮球系列" /></a>
+							</div>
+						</div>
+						<div class="recommend">
+							<a href="#"><img src="images/lanqiu1.jpg" alt="霍华德1代" /></a>
+						</div>
+					</div>
+					<div class="main-r">
+						<div class="product-listPanel">
+							<ul>
+								<li>
+									<a href="#"><img src="images/x1472290166345_8220_x_180_x_180.jpg" alt="" title="匹克PEAK秋冬新款BASICFORBUSINESS基础系列时尚专业篮球鞋DA054611（E54611A）"/></a>
+									<span>匹克PEAK秋冬新款BASICFORBUSINESS基础系列时尚专业篮球鞋DA054611（E54611A）</span>
+									<span class="price">RMB   219</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1471833512971_7650_x_180_x_180.jpg" alt="" title="匹克PEAK 男高帮室内外实战战靴耐磨减震防滑学生运动鞋DA530081"/></a>
+									<span>匹克PEAK 男高帮室内外实战战靴耐磨减震防滑学生运动鞋DA530081</span>
+									<span class="price">RMB   219</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1472290166345_8220_x_180_x_180.jpg" alt="" title="匹克PEAK专业篮球鞋帕克签名战靴TP9 E33323A"/></a>
+									<span>匹克PEAK专业篮球鞋帕克签名战靴TP9 E33323A</span>
+									<span class="price">RMB   369</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1472290120602_4505_x_180_x_180.jpg" alt="" title="匹克PEAK 冬季新品明星系列闪电三代耐磨专业篮球鞋E44053A"/></a>
+									<span>匹克PEAK 冬季新品明星系列闪电三代耐磨专业篮球鞋E44053A</span>
+									<span class="price">RMB   299</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1468573774847_2822_x_180_x_180.jpg" alt="" title="匹克PEAK经典系列防滑耐磨专业篮球战靴 男款 E6371A"/></a>
+									<span>匹克PEAK经典系列防滑耐磨专业篮球战靴 男款 E6371A</span>
+									<span class="price">RMB   129</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1474257125840_1123_x_180_x_180.jpg" alt="" title="匹克PEAK明星款篮球鞋帕克四 4代专业篮球鞋梯度科技球鞋 男款 E64323A"/></a>
+									<span>匹克PEAK明星款篮球鞋帕克四 4代专业篮球鞋梯度科技球鞋 男款 E64323A</span>
+									<span class="price">RMB   619</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--2F--跑步系列-->
+			<div class="basketball-series pro-series">
+				<div class="title">
+					<h2><span>2F</span><a href="#">跑步系列</a></h2>
+					<ul>
+						<li><a href="javascript:;">热销</a></li>
+						<li><a href="javascript:;">男子</a></li>
+						<li><a href="javascript:;">女子</a></li>
+						<li><a href="javascript:;">情侣款</a></li>
+						<li class="more-link"><a href="#">查看更多</a></li>
+					</ul>
+				</div>
+				<div class="pro-main">
+					<div class="main-l">
+						<div class="star-list star-list2">							
+							<ul class="star-part2">
+								<li>
+									<a href="#">商场同款</a>
+									<a href="#">悦跑系列</a>
+									<a href="#">专业系列</a>
+									<a href="#">耐磨系列</a>
+								</li>
+								<li>
+									<a href="#">经典系列</a>
+								</li>
+							</ul>
+							<div class="star-part3">
+								<div class="selection">
+									<span>本周</span>
+									<span>精选</span>
+								</div>
+								<a href="#"><img src="images/DH630161.jpg" alt="" /></a>
+							</div>
+							<div class="star-part3">
+								<div class="selection">
+									<span>本周</span>
+									<span>精选</span>
+								</div>
+								<a href="#"><img src="images/E62347H.jpg" alt="" /></a>
+							</div>
+						</div>
+						<div class="recommend">
+							<a href="#"><img src="images/paobu1.jpg" alt="霍华德1代" /></a>
+						</div>
+					</div>
+					<div class="main-r">
+						<div class="product-listPanel">
+							<ul>
+								<li>
+									<a href="#"><img src="images/x1469071423178_1182_x_180_x_180.jpg" alt="" title="匹克 PEAK 2016夏季运动鞋透气轻便减震网面防滑运动跑步男鞋DH043047"/></a>
+									<span>匹克 PEAK 2016夏季运动鞋透气轻便减震网面防滑运动跑步男鞋DH043047</span>
+									<span class="price">RMB   179</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1473489014169_5486_x_180_x_180.jpg" alt="" title="匹克Peak 跑步鞋秋时尚飞织男运动鞋耐磨百搭男鞋舒适休闲跑鞋旅游鞋DH631151"/></a>
+									<span>匹克Peak 跑步鞋秋时尚飞织男运动鞋耐磨百搭男鞋舒适休闲跑鞋旅游鞋DH631151</span>
+									<span class="price">RMB   349</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1469846892275_3668_x_180_x_180.jpg" alt="" title="匹克PEAK 夏季新品男子跑步鞋透气舒适易折弯运动跑鞋E51331H"/></a>
+									<span>匹克PEAK 夏季新品男子跑步鞋透气舒适易折弯运动跑鞋E51331H</span>
+									<span class="price">RMB   189</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1469846912210_5695_x_180_x_180.jpg" alt="" title="匹克PEAK2016春季新品情侣款男款 休闲运动百搭透气运动跑步鞋E61207H"/></a>
+									<span>匹克PEAK2016春季新品情侣款男款 休闲运动百搭透气运动跑步鞋E61207H</span>
+									<span class="price">RMB   179</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1469866159308_8306_x_180_x_180.jpg" alt="" title="匹克PEAK2016春季男款新品透气减震耐磨防滑易弯折男子运动鞋跑鞋E62407H"/></a>
+									<span>匹克PEAK2016春季男款新品透气减震耐磨防滑易弯折男子运动鞋跑鞋E62407H</span>
+									<span class="price">RMB   209</span>
+								</li>
+								<li>
+									<a href="#"><img src="images/x1473489144912_5352_x_180_x_180.jpg" alt="" title="匹克Peak 新款魔弹科技男鞋跑步鞋秋季透气舒适网面减震运动鞋慢跑鞋E63017H"/></a>
+									<span>匹克Peak 新款魔弹科技男鞋跑步鞋秋季透气舒适网面减震运动鞋慢跑鞋E63017H</span>
+									<span class="price">RMB   349</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!------以上为商品系列------->
+		
+		<!-----附属内容----->
+		<div class="Co-news pagewidth pagewidth-min">
+			<div class="Co-news-height">
+				<ul class="styleAutoSize">
+				<!--PEAK社区-->
+					<li class="firstLi Co-news-li">
+						<div class="community-title">
+							<h3>PEAK+社区</h3>
+							<a href="#">更多></a>
+						</div>
+						<div class="community-list">
+							<ul class="styleAutoSize">
+								<li class="games"><a href="">所有赛事</a></li>
+								<li class="story"><a href="">球鞋故事</a></li>
+								<li class="review"><a href="">球鞋评测</a></li>
+								<li class="notice"><a href="">品牌公告</a></li>
+							</ul>
+						</div>
+						<div class="community-title">
+							<h3>会员俱乐部</h3>
+							<a href="#">更多></a>
+						</div>
+						<div class="exchange">
+							<a href="#">积分兑换</a>
+							<a href="#">正品验证</a>
+						</div>
+					</li>
+				<!--最新资讯-->
+					<li class="diffLi Co-news-li">
+						<div class="community-title">
+							<h3>最新资讯</h3>
+						</div>
+						<div class="news-list">
+							<ul class="styleAutoSize">
+								<li><a href="#" title="匹克体育成为环太湖国际公路自行车赛官方合作伙伴 加速自行车产业布局">匹克体育成为环太湖国际公路自行车赛官方合作伙伴 加速自行车产业布局</a></li>
+								<li><a href="#" title="2016年海上丝绸之路环泉州湾国际公路自行车赛圆满落幕">2016年海上丝绸之路环泉州湾国际公路自行车赛圆满落幕</a></li>
+								<li><a href="#" title="帕克亲临匹克国际篮球节现场 揭幕帕克四代专业篮球鞋">帕克亲临匹克国际篮球节现场 揭幕帕克四代专业篮球鞋</a></li>
+								<li><a href="#" title="匹克体育续约美国大学生代表团，持续助力国际化战略！">匹克体育续约美国大学生代表团，持续助力国际化战略！</a></li>
+								<li><a href="#" title="匹克与阿根廷篮球联赛达成合作，加速全球篮球产业布局！">匹克与阿根廷篮球联赛达成合作，加速全球篮球产业布局！</a></li>
+								<li><a href="#" title="匹克启动2016国际篮球节 体育产业生态链建设初具规模">匹克启动2016国际篮球节 体育产业生态链建设初具规模</a></li>
+								<li><a href="#" title="斯坦科维奇杯拉开战幕，中国首秀不敌匹克战队尼日利亚！">斯坦科维奇杯拉开战幕，中国首秀不敌匹克战队尼日利亚！</a></li>
+								<li><a href="#" title="回到梦开始的地方！霍华德加盟家乡球队亚特兰大老鹰队！">回到梦开始的地方！霍华德加盟家乡球队亚特兰大老鹰队！</a></li>
+								<li><a href="#" title="2016奥运会男篮落选赛丨伊朗主打年轻牌 ，哈达迪领衔冲击里约">2016奥运会男篮落选赛丨伊朗主打年轻牌 ，哈达迪领衔冲击里约</a></li>
+							</ul>
+						</div>
+						<div class="moreNews">
+							<a href="#">更多></a>
+						</div>
+					</li>
+				<!--值得买-->
+					<li class="Co-news-li">
+						<div class="community-title">
+							<h3>值得买</h3>
+						</div>
+						<dl class="worth-buy">
+							<dt><a href="#"><img src="images/x1437547633394_4741_x_150_x_150.jpg" alt="" /></a></dt>							
+							<dd>
+								<strong>RMB  369</strong>
+								<span>原价 :</span>
+								<em>619</em>
+							</dd>
+							<dd>帕克系列经典篮球鞋TP9</dd>
+						</dl>
+					</li>
+					<li class="Co-news-li">
+						<dl class="worth-buy worth-buy02">
+							<dt><a href="#"><img src="images/x1427424134039_4126_x_150_x_150.jpg" alt="" /></a></dt>							
+							<dd>
+								<strong>RMB  159</strong>
+								<span>原价 :</span>
+								<em>299</em>
+							</dd>
+							<dd>匹克跑步系列夏季精品网布透气跑鞋</dd>
+						</dl>
+					</li>
+					<!--评测-->
+					<li class="Co-news-li">
+						<div class="community-title">
+							<h3>评测</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-----以上是附属内容----->
+		
+		<!----友情链接----->
+		<div class="partners pagewidth pagewidth-min">
+			<ul class="styleAutoSize">
+				<li><a href="" title="匹克官方网店官方微博链接"><img src="images/weibo_logo.png" alt="" /><div>官方微博</div></a></li>
+				<li><a href="" title="篮球中国风博客合作链接"><img src="images/blog_logo.png" alt="" /><div>篮球中国风</div></a></li>
+				<li><a href="" title="品牌微联盟合作链接"><img src="images/mingpinshijie.png" alt="" /><div>名品世界</div></a></li>
+				<li><a href="" title="品牌微联盟合作链接"><img src="images/brandlm.png" alt="" /><div>品牌微联盟</div></a></li>
+				<li><a href="" title="微能量合作链接"><img src="images/wpower8.png" alt="" /><div>微能量</div></a></li>
+				<li><a href="" title="蓝海联盟合作链接"><img src="images/lanhai_logo.png" alt="" /><div>蓝海联盟</div></a></li>
+				<li><a href="" title="商城众网合作链接"><img src="images/zongwang_logo.jpg" alt="" /><div>商城众网</div></a></li>
+			</ul>
+		</div>
+		
+		<div class="guide">
+			<div class="guide-main pagewidth">
+				<div class="guide-l">
+					<ul class="styleAutoSize">
+						<li>
+							<h3>企业品牌</h3>
+							<a href="#">关于我们</a>
+							<a href="#">商业合作</a>
+							<a href="#">联系我们</a>
+							<a href="#">诚聘英才</a>
+						</li>
+						<li>
+							<h3>新手帮助</h3>
+							<a href="#">注册会员</a>
+							<a href="#">找回密码</a>
+							<a href="#">常见问题</a>
+						</li>
+						<li>
+							<h3>购物指南</h3>
+							<a href="#">购物流程</a>
+							<a href="#">购物保障</a>
+							<a href="#">尺码参照</a>
+						</li>
+						<li>
+							<h3>售后服务</h3>
+							<a href="#">退换货政策</a>
+							<a href="#">退换货政策及退款流程</a>
+							<a href="#">正品验证</a>
+						</li>
+						<li>
+							<h3>会员服务</h3>
+							<a href="#">抵用券绑定</a>
+							<a href="#">抵用券使用流程</a>
+							<a href="#">积分规则</a>
+						</li>
+					</ul>
+				</div>
+				<div class="guide-r">
+					<ul class="styleAutoSize">
+						<li>
+							<img src="images/wx.jpg" alt="" />
+							<span>匹克官方网店官方微信</span>
+						</li>
+						<li>
+							<div class="font14">联系我们</div>
+							<div>售前：0595-2275 0137</div>
+							<div>售后：400-884-8840</div>
+							<div class="font12">工作日 9:00-23:00(节假日不休息)</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!----信誉图标---->
+		<div class="footer">
+			<div class="reputation-icon">
+				<a href="#"><img src="images/morelogo6.png" alt="" /></a>
+				<a class="changeBig" href="#"><img src="images/cnnic.png" alt="" /></a>
+				<!--图标原地放大-->
+				<script type="text/javascript">
+					var $changeBig=$(".changeBig>img");
+					var $iconWidth=$changeBig.innerWidth();
+					var $iconHeight=$changeBig.innerHeight();
+					$changeBig.hover(function(){
+						$(this).css({left:-12.5,top:-5,width:$iconWidth+25,height:$iconHeight+10});						
+					},function(){
+						$(this).css({left:0,top:0,width:$iconWidth,height:$iconHeight});
+					});					
+				</script>
+				<a href="#"><img src="images/baozhang.bmp" alt="" /></a>
+				<a href="#"><img src="images/xchinapay.png" alt="" /></a>
+			</div>
+			Copyright<strong>© </strong>
+			2014-
+			<span>
+				<a href="#" class="linkYellow">匹克网方网店</a> 版权所有 | <a href="#">闽ICP备11009488号-1</a>
+				&nbsp;
+				<a href="#">百度统计</a>&nbsp;<a href="#">移动统计</a>
+			</span>						
+		</div>
+		
+	</body>
+</html>
